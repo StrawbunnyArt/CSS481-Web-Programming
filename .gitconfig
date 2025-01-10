@@ -1,0 +1,6 @@
+[remote "origin"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    skipFetchAll = true
+    prune = true
+    fetch = +refs/heads/master:refs/remotes/origin/main
+    # Only the branches explicitly listed will be fetched
